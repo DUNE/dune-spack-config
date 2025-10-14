@@ -1,0 +1,17 @@
+toolchains:
+
+  # system compiler
+  gcc_system:
+  - spec: "%c=gcc@11.5"
+    when: "%c"
+  - spec: "%cxx=gcc@11.5"
+    when: "%cxx"
+
+  # gcc 12
+  gcc12:
+  - spec: "%c=gcc@12.2"
+    when: "%c"
+  - spec: "%cxx=gcc@12.2"
+    when: "%cxx"
+  - spec: "%fortran=gcc@12.2"
+    when: "%fortran"

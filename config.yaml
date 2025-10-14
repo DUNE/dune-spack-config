@@ -1,3 +1,4 @@
 config:
   install_tree:
+    root: ${WORKSPACE}/packages
     padded_length: 64
