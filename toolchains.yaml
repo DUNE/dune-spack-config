@@ -9,9 +9,9 @@ toolchains:
 
   # gcc 12
   gcc12:
-  - spec: "%c=gcc@12.2"
+  - spec: "%c=gcc@12.5"
     when: "%c"
-  - spec: "%cxx=gcc@12.2"
+  - spec: "%cxx=gcc@12.5"
     when: "%cxx"
-  - spec: "%fortran=gcc@12.2"
+  - spec: "%fortran=gcc@12.5"
     when: "%fortran"
