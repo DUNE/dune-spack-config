@@ -1,4 +1,4 @@
 packages:
   all:
     target:
-    - x86_64_v2
+    - x86_64_v3
