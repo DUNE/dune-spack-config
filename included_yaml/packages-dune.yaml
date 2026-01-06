@@ -67,7 +67,7 @@ packages:
     - "@18"
   python:
     require:
-    - "@3.11"
+    - "@3.10"
   py-tensorflow:
     require:
     - +cuda
