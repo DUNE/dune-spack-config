@@ -1,5 +1,5 @@
 definitions:
-- dune_specs:
+- specs_dune:
   - dune-ana %build_compiler
   - dune-ana-obj %build_compiler
   - dune-calib %build_compiler
