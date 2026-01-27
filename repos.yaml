@@ -26,7 +26,7 @@ repos::
   artdaq:
     git: https://github.com/art-daq/artdaq-spack.git
     destination: $spack/var/spack/repos/artdaq-spack
-    branch: artdaq/Spack1.1
+    branch: Spack1.0
   scd:
     git: https://github.com/fnal-fife/scd_recipes.git
     destination: $spack/var/spack/repos/scd_recipes
